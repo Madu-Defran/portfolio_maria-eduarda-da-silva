@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maria Eduarda - Contato</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+  <div class="logo"></div>
+
+    <nav><!-- Menu e Links do Menu -->
+        <a href="sobre.html">Sobre Mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+        <button id="btnTema">Alterar Tema</button>
+    </nav>
+
+</header>
+
+<section class="container">
+
+<div class="texto">
+
+<h2>Fale comigo</h2> 
+
+<p class="p1">
+Tem alguma dúvida, sugestão ou deseja trabalhar comigo?
+Preencha o formulário abaixo e responderei o mais rápido possível.
+</p>
+
+<!-- Seção de contato -->
+<section class="contato">
+  <h2>Contato</h2>
+
+  <!-- Formulario para contato -->
+  <form id="formContato">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" placeholder="Seu nome">
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="seu@email.com">
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<!-- Modal de confirmação com mensagem para o usuario-->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="fecharModal" class="fechar">&times;</span>
+    <p>Mensagem enviada com sucesso!</p>
+  </div>
+</div>
+
+</div>
+
+</section>
+
+<div id="footer">
+© 2026 Maria Eduarda da Silva. Desenvolvido com HTML, CSS e JavaScript.
+</div>
+
+<script src="javascript/script.js"></script>
+
+</body>
+</html>
